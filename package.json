@@ -1,0 +1,53 @@
+{
+  "name": "@salesflare/joi",
+  "version": "0.0.0",
+  "description": "Salesflare's Joi",
+  "homepage": "https://github.com/Salesflare/joi",
+  "author": {
+    "name": "Salesflare",
+    "email": "developers@salesflare.com",
+    "url": "https://salesflare.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "joi"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "nsp": "^2.7.0",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.0"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "https://github.com/Salesflare/joi.git",
+  "jest": {
+    "testEnvironment": "node",
+    "notify": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib/**/*.js",
+      "!__tests__"
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^10.6.0",
+    "joi-phone-number": "^1.0.0"
+  }
+}
