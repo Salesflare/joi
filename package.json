@@ -48,6 +48,6 @@
   "license": "MIT",
   "dependencies": {
     "joi": "10.6.0",
-    "joi-phone-number": "1.0.0"
+    "joi-phone-number": "1.0.1"
   }
 }
