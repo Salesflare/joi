@@ -15,14 +15,6 @@
   "keywords": [
     "joi"
   ],
-  "devDependencies": {
-    "coveralls": "^2.13.1",
-    "eslint": "^4.1.0",
-    "eslint-config-xo-space": "^0.16.0",
-    "jest": "^21.0.0",
-    "jest-cli": "^21.0.0",
-    "nsp": "^2.8.0"
-  },
   "scripts": {
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
@@ -48,6 +40,14 @@
   "license": "MIT",
   "dependencies": {
     "joi": "11.1.1",
-    "joi-phone-number": "1.0.3"
+    "joi-phone-number": "1.0.4"
+  },
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^21.0.0",
+    "jest-cli": "^21.0.0",
+    "nsp": "^2.8.0"
   }
 }
