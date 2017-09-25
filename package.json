@@ -47,7 +47,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "joi": "11.0.0",
+    "joi": "11.1.1",
     "joi-phone-number": "1.0.3"
   }
 }
