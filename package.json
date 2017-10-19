@@ -39,7 +39,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "joi": "12.0.0",
+    "joi": "13.0.1",
     "joi-phone-number": "1.1.0"
   },
   "devDependencies": {
