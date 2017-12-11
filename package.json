@@ -30,7 +30,7 @@
   "repository": "https://github.com/Salesflare/joi.git",
   "jest": {
     "testEnvironment": "node",
-    "notify": true,
+    "notify": false,
     "collectCoverage": true,
     "collectCoverageFrom": [
       "lib/**/*.js",
@@ -39,15 +39,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "joi": "12.0.0",
-    "joi-phone-number": "1.1.1"
+    "joi": "13.0.2",
+    "joi-phone-number": "2.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "eslint": "^4.9.0",
+    "eslint": "^4.13.0",
     "eslint-config-xo-space": "^0.17.0",
     "jest": "^21.0.0",
     "jest-cli": "^21.0.0",
-    "nsp": "^2.8.1"
+    "nsp": "^3.1.0"
   }
 }
