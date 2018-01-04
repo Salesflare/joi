@@ -40,14 +40,14 @@
   "license": "MIT",
   "dependencies": {
     "joi": "13.0.2",
-    "joi-phone-number": "2.0.0"
+    "joi-phone-number": "2.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "eslint": "^4.13.0",
+    "eslint": "^4.14.0",
     "eslint-config-xo-space": "^0.17.0",
-    "jest": "^21.0.0",
-    "jest-cli": "^21.0.0",
+    "jest": "^22.0.4",
+    "jest-cli": "^22.0.4",
     "nsp": "^3.1.0"
   }
 }
