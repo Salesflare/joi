@@ -39,13 +39,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "joi": "13.1.1",
+    "joi": "13.1.2",
     "joi-phone-number": "2.0.2"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
     "eslint": "^4.16.0",
-    "eslint-config-xo-space": "^0.17.0",
+    "eslint-config-xo-space": "^0.18.0",
     "jest": "^22.1.4",
     "jest-cli": "^22.1.4",
     "nsp": "^3.1.0"
