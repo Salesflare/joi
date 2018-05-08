@@ -43,7 +43,7 @@
     "joi-phone-number": "2.0.7"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.1",
     "eslint": "^4.19.0",
     "eslint-config-xo-space": "^0.18.0",
     "jest": "^22.1.4",
