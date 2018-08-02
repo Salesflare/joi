@@ -39,7 +39,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "joi": "13.4.0",
+    "@salesflare/joi-date-string": "^1.0.1",
+    "joi": "13.5.2",
     "joi-phone-number": "^2.0.11"
   },
   "devDependencies": {
