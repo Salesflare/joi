@@ -39,15 +39,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@salesflare/joi-date-string": "^1.0.2",
-    "joi": "^14.3.1",
-    "joi-phone-number": "^2.1.1"
+    "@hapi/joi": "^15.0.3",
+    "@salesflare/joi-date-string": "^1.0.3",
+    "joi-phone-number": "^3.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
-    "eslint": "^5.14.1",
+    "eslint": "^5.16.0",
     "eslint-config-xo-space": "^0.21.0",
-    "jest": "^24.1.0",
-    "jest-cli": "^24.1.0"
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0"
   }
 }
