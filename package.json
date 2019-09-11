@@ -39,7 +39,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "^14.5.0",
+    "@hapi/joi": "^16.0.0",
     "@salesflare/joi-date-string": "^1.0.4",
     "joi-phone-number": "^3.0.3"
   },
