@@ -41,11 +41,11 @@
   "dependencies": {
     "@hapi/joi": "^14.5.0",
     "@salesflare/joi-date-string": "^1.0.4",
-    "joi-phone-number": "^3.0.3"
+    "joi-phone-number": "^3.1.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.6",
-    "eslint": "^6.2.2",
+    "coveralls": "^3.0.7",
+    "eslint": "^6.5.1",
     "eslint-config-xo-space": "^0.21.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0"
