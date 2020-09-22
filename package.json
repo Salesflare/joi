@@ -40,15 +40,15 @@
   "license": "MIT",
   "dependencies": {
     "@hapi/bourne": "^2.0.0",
-    "@hapi/joi": "^17.1.0",
-    "@salesflare/joi-date-string": "^2.0.0",
-    "joi-phone-number": "^4.0.0"
+    "@salesflare/joi-date-string": "^2.0.1",
+    "joi": "^17.2.1",
+    "joi-phone-number": "^5.0.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.9",
-    "eslint": "^6.8.0",
-    "eslint-config-xo-space": "^0.22.0",
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0"
+    "coveralls": "^3.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-xo-space": "^0.25.0",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2"
   }
 }
