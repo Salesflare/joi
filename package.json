@@ -16,7 +16,7 @@
     "joi"
   ],
   "scripts": {
-    "prepublish": "npm audit",
+    "prepare": "npm audit",
     "pretest": "eslint . --fix",
     "test": "jest"
   },
@@ -41,14 +41,14 @@
   "dependencies": {
     "@hapi/bourne": "^2.0.0",
     "@salesflare/joi-date-string": "^2.0.1",
-    "joi": "^17.2.1",
-    "joi-phone-number": "^5.0.0"
+    "joi": "^17.4.0",
+    "joi-phone-number": "^5.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
-    "eslint": "^7.9.0",
-    "eslint-config-xo-space": "^0.25.0",
-    "jest": "^26.4.2",
-    "jest-cli": "^26.4.2"
+    "eslint": "^7.20.0",
+    "eslint-config-xo-space": "^0.26.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
   }
 }
